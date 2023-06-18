@@ -10,7 +10,7 @@ const Footer = () => (
   <footer className="">
     <a href="mailto:alex@collectivelymade.com" className="">hello@email.com</a>
     <p>&copy; 2023 Collectively Made</p>
-    <div className="mt5">
+    <div className="">
       <a href="/terms/" title="Terms" class="">Terms of Use</a>
     </div>
   </footer>
