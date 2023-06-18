@@ -20,7 +20,7 @@ Variables
   --spacing-xl: calc(2.5 * var(--spacing));
   --spacing-xxl: calc(5 * var(--spacing));
   --spacing-col: calc(6 * var(--spacing));
-  --spacing-width-max: 72rem;
+  --spacing-width-max: 56rem;
   --spacing-width-tiny: 15rem;
   --spacing-width-xl: 50rem;
 }
