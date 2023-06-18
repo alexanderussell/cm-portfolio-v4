@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => (
             <ul>
             {navLinks.map(link => (
               <li key={link.url}>
-                <a href={`${link.url}${utmParameters}`} >
+                <a href={`${link.url}`} >
                   {link.text} ↗
                 </a>
               </li>
