@@ -7,6 +7,7 @@ import Seo from "../components/seo"
 import Clients from "../components/clients"
 
 import * as styles from "../components/index.module.css"
+import Offerings from "../components/offerings"
 
 const links = [
   {
@@ -81,12 +82,16 @@ const IndexPage = () => (
         </li>
       ))}
     </ul>
+
+    <Offerings />
+
     {/* {footerLinks.map((link, i) => (
       <React.Fragment key={link.url}>
         <a href={`${link.url}${utmParameters}`}>{link.text}</a>
         {i !== footerLinks.length - 1 && <> · </>}
       </React.Fragment>
     ))} */}
+    
   </Layout>
 )
 
