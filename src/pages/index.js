@@ -33,7 +33,7 @@ const links = [
   },
 ]
 
-const moreLinks = [
+const footerLinks = [
   { text: "Join us on Discord", url: "https://gatsby.dev/discord" },
   {
     text: "Documentation",
@@ -76,10 +76,10 @@ const IndexPage = () => (
         </li>
       ))}
     </ul>
-    {/* {moreLinks.map((link, i) => (
+    {/* {footerLinks.map((link, i) => (
       <React.Fragment key={link.url}>
         <a href={`${link.url}${utmParameters}`}>{link.text}</a>
-        {i !== moreLinks.length - 1 && <> · </>}
+        {i !== footerLinks.length - 1 && <> · </>}
       </React.Fragment>
     ))} */}
   </Layout>
