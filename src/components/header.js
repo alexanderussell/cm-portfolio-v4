@@ -1,39 +1,28 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-const navLinks = [
-  { text: "home", url: "/", badge: false},
-  { text: "TypeScript", url: "using-typescript" },
+const navigation = [
+  { name: 'Home', href: '#' },
+  { name: 'Features', href: '#' },
+  { name: 'Marketplace', href: '#' },
+  { name: 'Company', href: '#' },
 ]
-
 const Header = ({ siteTitle }) => (
   <header>
     <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-      <div className="navInner">
-        <div className="logo">
-          <Link to="/">logo</Link>
-        </div>
-        <div className="menus">
-          <div className="left">
-            {/* {samplePageLinks.map((link, i) => (
-              <React.Fragment key={link.url}>
-                <Link to={link.url}>{link.text}</Link>
-                {i !== samplePageLinks.length - 1 && <> · </>}
-              </React.Fragment>
-            ))} */}
-            <ul>
-            {navLinks.map(link => (
-              <li key={link.url}>
-                <a href={`${link.url}`} >
-                  {link.text}
-                </a>
-              </li>
+      <div className="flex items-center gap-x-12">
+          <a href="#" className="-m-1.5 p-1.5">
+            <span className="sr-only">Your Company</span>
+            <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+          </a>
+          <div className="hidden lg:flex lg:gap-x-12">
+            {navigation.map((item) => (
+              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+                {item.name}
+              </a>
             ))}
-          </ul>
           </div>
-          <div className="right">right</div>
         </div>
-      </div>
     </nav>
   </header>
 )
