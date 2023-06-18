@@ -9,12 +9,14 @@ const navigation = [
 
 const Header = () => (
     <header>
-      <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-        <div className="flex items-center gap-x-12">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
-            <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
-          </a>
+      <nav className="w-full border-b bg-background/95 backdrop-blur-md transition-[transform,border-color] duration-300 fixed border-b-transparent translate-y-0" aria-label="Global">
+        <div className="flex items-center justify-between py-4 container mx-auto px-container">
+          <div className="flex items-center gap-2">
+            <a href="#">
+              <span className="sr-only">Collectively Made</span>
+              <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+            </a>
+          </div> 
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
               <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
