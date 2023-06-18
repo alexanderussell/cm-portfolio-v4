@@ -136,7 +136,7 @@ nav ul {
   color: var(--secondary-color);
   display: inline-flex;
   font-family: var(--font-sans);
-  font-size: .9rem;
+  font-weight: 600;
   line-height: 1;
   margin: 0 -1px;
   padding: 7px 8px 6px;
