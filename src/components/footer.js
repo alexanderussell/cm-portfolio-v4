@@ -1,10 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
-const footerLinks = [
-  { text: "home", url: "/", badge: false},
-  { text: "TypeScript", url: "using-typescript" },
-]
 
 const Footer = () => (
   <footer className="">
