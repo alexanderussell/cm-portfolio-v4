@@ -106,7 +106,7 @@ header nav .menus {
   flex: 1 0 auto;
   justify-content: space-between;
 }
-nav .menus .left ul, nav .menus .right ul {
+nav ul {
     align-items: center;
     display: flex;
     margin: -1px 0 0;
