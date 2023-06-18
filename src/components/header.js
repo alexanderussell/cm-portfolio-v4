@@ -2,13 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 
 const navLinks = [
-  {
-    text: "Page 2",
-    url: "page-2",
-    badge: false,
-    description:
-      "A simple example of linking to another page within a Gatsby site",
-  },
+  { text: "home", url: "/", badge: false},
   { text: "TypeScript", url: "using-typescript" },
 ]
 
