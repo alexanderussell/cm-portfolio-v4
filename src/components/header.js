@@ -10,8 +10,6 @@ const navLinks = [
       "A simple example of linking to another page within a Gatsby site",
   },
   { text: "TypeScript", url: "using-typescript" },
-  { text: "Server Side Rendering", url: "using-ssr" },
-  { text: "Deferred Static Generation", url: "using-dsg" },
 ]
 
 const Header = ({ siteTitle }) => (
@@ -29,16 +27,12 @@ const Header = ({ siteTitle }) => (
                 {i !== samplePageLinks.length - 1 && <> · </>}
               </React.Fragment>
             ))} */}
-            <ul className={styles.list}>
+            <ul>
             {navLinks.map(link => (
-              <li key={link.url} className={styles.listItem}>
-                <a
-                  className={styles.listItemLink}
-                  href={`${link.url}${utmParameters}`}
-                >
+              <li key={link.url}>
+                <a href={`${link.url}${utmParameters}`} >
                   {link.text} ↗
                 </a>
-                <p className={styles.listItemDescription}>{link.description}</p>
               </li>
             ))}
           </ul>
