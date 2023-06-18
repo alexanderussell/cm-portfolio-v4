@@ -298,7 +298,7 @@ Home
   .split time { margin: 0; }
 }
 
-small + p {
+small, p {
   margin-top: var(--spacing-s);
 }
 
@@ -359,7 +359,7 @@ article header {
 Limit widths
 -------------------------------------- */
 
-body>header, article>header,
+body header, article header,
 h1, h2, h3, time,
 p, blockquote, ol, ul, details, pre.code, figcaption,
 .split, .posts
