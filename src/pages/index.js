@@ -6,7 +6,6 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Clients from "../components/clients"
 
-import * as styles from "../components/index.module.css"
 import Offerings from "../components/offerings"
 
 const links = [
