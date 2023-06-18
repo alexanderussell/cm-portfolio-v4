@@ -63,6 +63,9 @@ const IndexPage = () => (
       We're a fully remote digital design and engineering collective. We believe in a partnership-first approach to design and work to bring your project from zero to one, and beyond.
       </h1>
     </div>
+
+    <Clients />
+
     <ul className={styles.list}>
       {links.map(link => (
         <li key={link.url} className={styles.listItem}>
