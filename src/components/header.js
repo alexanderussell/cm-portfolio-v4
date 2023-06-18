@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
-const samplePageLinks = [
+const navLinks = [
   {
     text: "Page 2",
     url: "page-2",
@@ -23,12 +23,25 @@ const Header = ({ siteTitle }) => (
         </div>
         <div className="menus">
           <div className="left">
-            {samplePageLinks.map((link, i) => (
+            {/* {samplePageLinks.map((link, i) => (
               <React.Fragment key={link.url}>
                 <Link to={link.url}>{link.text}</Link>
                 {i !== samplePageLinks.length - 1 && <> · </>}
               </React.Fragment>
+            ))} */}
+            <ul className={styles.list}>
+            {navLinks.map(link => (
+              <li key={link.url} className={styles.listItem}>
+                <a
+                  className={styles.listItemLink}
+                  href={`${link.url}${utmParameters}`}
+                >
+                  {link.text} ↗
+                </a>
+                <p className={styles.listItemDescription}>{link.description}</p>
+              </li>
             ))}
+          </ul>
           </div>
           <div className="right">right</div>
         </div>
