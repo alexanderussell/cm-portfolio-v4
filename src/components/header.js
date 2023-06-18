@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) => (
     <nav>
       <div className="navInner">
         <div className="logo">
-          <Link to="/" />
+          <Link to="/">logo</Link>
         </div>
         <div className="menus">
           <div className="left">
