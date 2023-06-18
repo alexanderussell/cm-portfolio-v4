@@ -166,13 +166,13 @@ body header a {
 Footer
 -------------------------------------- */
 
-body>footer {
+body footer {
   font-size: var(--font-s);
   line-height: var(--spacing-xl);
   justify-content: center;
 }
 
-body>footer nav, body>footer {
+body footer nav, body footer {
   display: flex;
   gap: var(--spacing-m);
 }
@@ -188,15 +188,22 @@ h1, h2, h3 {
   color: var(--color-highlight);
 }
 
+h1 {
+  font-size: 3rem;
+}
+
+
 article h1 {
   margin-bottom: 0;
 }
 
 h2 {
+  font-size: 1.4rem;
   margin: var(--spacing-m) 0;
 }
 
 h3 {
+  font-size: 1rem;
   margin: 0;
 }
 
