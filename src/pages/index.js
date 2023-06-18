@@ -84,17 +84,6 @@ const IndexPage = () => (
       <h1>
       We're a fully remote digital design and engineering collective. You'll find us where nonconformist design meets rock-solid technology. People call us when they need an experienced team that will deliver something great every single time.
       </h1>
-      <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {/* {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))} */}
-        <br />
-        Edit <code>src/pages/index.js</code> to update this page.
-      </p>
     </div>
     <ul className={styles.list}>
       {links.map(link => (
