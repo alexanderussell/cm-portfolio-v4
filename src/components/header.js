@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
             {navLinks.map(link => (
               <li key={link.url}>
                 <a href={`${link.url}`} >
-                  {link.text} ↗
+                  {link.text}
                 </a>
               </li>
             ))}
