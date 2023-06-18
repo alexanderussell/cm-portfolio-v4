@@ -379,7 +379,7 @@ article header {
 Limit widths
 -------------------------------------- */
 
-body header, article header,
+body, article, main,
 h1, h2, h3, time,
 p, blockquote, ol, ul, details, pre.code, figcaption,
 .split, .posts
