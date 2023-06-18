@@ -123,6 +123,12 @@ nav ul {
     vertical-align: middle;
 }
 
+.navInner ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 @media (max-width: 1025px) {
   .navInner .logo {
     width: 52px;
