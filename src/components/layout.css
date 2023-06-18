@@ -89,7 +89,7 @@ section {
 Header
 -------------------------------------- */
 
-header>nav {
+header nav {
   background: linear-gradient(var(--bg-color),80%,transparent);
   display: flex;
   justify-content: space-between;
@@ -98,20 +98,20 @@ header>nav {
   user-select: none;
   z-index: 999;
 }
-header>nav .logo {
+header nav .logo {
   width: 38px;
 }
-header>nav .menus {
+header nav .menus {
   display: flex;
   flex: 1 0 auto;
   justify-content: space-between;
 }
 
 @media (max-width: 1025px) {
-  header>nav .logo {
+  header nav .logo {
     width: 52px;
   }
-  header>nav .menus {
+  header nav .menus {
     align-items: flex-end;
     flex-direction: column;
   }
@@ -123,7 +123,7 @@ nav .left, nav .right {
   vertical-align: middle;
 }
 
-body>header {
+body header {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -131,18 +131,18 @@ body>header {
   color: var(--color-dim);
 }
 
-body>header h1 {
+body header h1 {
   margin: 0;
 }
 
-body>header img {
+body header img {
   display: block;
   border-radius: 100%;
   height: calc(3 * var(--spacing));
   width: auto;
 }
 
-body>header a {
+body header a {
   text-decoration: none;
 }
 
