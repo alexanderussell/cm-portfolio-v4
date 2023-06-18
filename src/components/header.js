@@ -8,7 +8,7 @@ const navigation = [
 ]
 
 const Header = () => (
-    <header>
+    <header className="ease-[cubic-bezier(0.90, 0, 0.05, 1)] z-30 w-full border-b bg-background/95 backdrop-blur-md transition-[transform,border-color] duration-300 fixed border-b-transparent translate-y-0">
       <nav className="w-full border-b bg-background/95 backdrop-blur-md transition-[transform,border-color] duration-300 fixed border-b-transparent translate-y-0" aria-label="Global">
         <div className="flex items-center justify-between py-4 container mx-auto px-container">
           <div className="flex items-center gap-2">
@@ -24,12 +24,6 @@ const Header = () => (
               </a>
             ))}
           </div>
-        </div>
-      
-        <div className="hidden lg:flex">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Log in <span aria-hidden="true">&rarr;</span>
-          </a>
         </div>
       </nav>
     </header>
