@@ -86,12 +86,12 @@ const IndexPage = () => (
       </h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
+        {/* {samplePageLinks.map((link, i) => (
           <React.Fragment key={link.url}>
             <Link to={link.url}>{link.text}</Link>
             {i !== samplePageLinks.length - 1 && <> · </>}
           </React.Fragment>
-        ))}
+        ))} */}
         <br />
         Edit <code>src/pages/index.js</code> to update this page.
       </p>
@@ -109,12 +109,12 @@ const IndexPage = () => (
         </li>
       ))}
     </ul>
-    {moreLinks.map((link, i) => (
+    {/* {moreLinks.map((link, i) => (
       <React.Fragment key={link.url}>
         <a href={`${link.url}${utmParameters}`}>{link.text}</a>
         {i !== moreLinks.length - 1 && <> · </>}
       </React.Fragment>
-    ))}
+    ))} */}
   </Layout>
 )
 
