@@ -1,6 +1,19 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
+const samplePageLinks = [
+  {
+    text: "Page 2",
+    url: "page-2",
+    badge: false,
+    description:
+      "A simple example of linking to another page within a Gatsby site",
+  },
+  { text: "TypeScript", url: "using-typescript" },
+  { text: "Server Side Rendering", url: "using-ssr" },
+  { text: "Deferred Static Generation", url: "using-dsg" },
+]
+
 const Header = ({ siteTitle }) => (
   <header>
     <nav>
