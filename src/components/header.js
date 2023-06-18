@@ -14,10 +14,10 @@ const Header = () => (
           <div className="flex items-center gap-2">
             <a href="#">
               <span className="sr-only">Collectively Made</span>
-              <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+              <img className="h-1 w-10" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
             </a>
           </div> 
-          <div className="hidden lg:flex lg:gap-x-12">
+          <div className="items-center gap-6 text-base font-medium leading-relaxed md:flex">
             {navigation.map((item) => (
               <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
                 {item.name}
