@@ -60,7 +60,7 @@ const IndexPage = () => (
   <Layout>
     <div>
       <h1>
-      We're a fully remote digital design and engineering collective. You'll find us where nonconformist design meets rock-solid technology. People call us when they need an experienced team that will deliver something great every single time.
+      We're a fully remote digital design and engineering collective. We believe in a partnership-first approach to design and work to bring your project from zero to one, and beyond.
       </h1>
     </div>
     <ul className={styles.list}>
