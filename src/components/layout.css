@@ -117,7 +117,7 @@ header nav .menus {
   }
 }
 
-nav .left, nav .right {
+nav .menus .left, nav .menus .right {
   align-items: center;
   display: flex;
   vertical-align: middle;
