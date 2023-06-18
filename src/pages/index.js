@@ -68,16 +68,15 @@ const IndexPage = () => (
 
     <Clients />
 
-    <ul className={styles.list}>
+    <ul>
       {links.map(link => (
-        <li key={link.url} className={styles.listItem}>
+        <li key={link.url}>
           <a
-            className={styles.listItemLink}
             href={`${link.url}${utmParameters}`}
           >
             {link.text} ↗
           </a>
-          <p className={styles.listItemDescription}>{link.description}</p>
+          <p >{link.description}</p>
         </li>
       ))}
     </ul>
