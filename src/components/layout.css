@@ -89,6 +89,34 @@ section {
 Header
 -------------------------------------- */
 
+header>nav {
+  background: linear-gradient(var(--bg-color),80%,transparent);
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 28px;
+  -webkit-user-select: none;
+  user-select: none;
+  z-index: 999;
+}
+header>nav .menus {
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: space-between;
+}
+
+@media (max-width: 1025px) {
+  header>nav .menus {
+    align-items: flex-end;
+    flex-direction: column;
+  }
+}
+
+nav .left, nav .right {
+  align-items: center;
+  display: flex;
+  vertical-align: middle;
+}
+
 body>header {
   display: flex;
   justify-content: space-between;
