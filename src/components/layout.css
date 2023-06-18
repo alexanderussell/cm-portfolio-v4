@@ -89,7 +89,16 @@ section {
 Header
 -------------------------------------- */
 
-header nav {
+nav {
+  margin: 0 auto;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+header .navInner {
   background: linear-gradient(var(--bg-color),80%,transparent);
   display: flex;
   justify-content: space-between;
@@ -98,10 +107,10 @@ header nav {
   user-select: none;
   z-index: 999;
 }
-header nav .logo {
+.navInner .logo {
   width: 38px;
 }
-header nav .menus {
+.navInner .menus {
   display: flex;
   flex: 1 0 auto;
   justify-content: space-between;
@@ -115,10 +124,10 @@ nav ul {
 }
 
 @media (max-width: 1025px) {
-  header nav .logo {
+  .navInner .logo {
     width: 52px;
   }
-  header nav .menus {
+  .navInner .menus {
     align-items: flex-end;
     flex-direction: column;
   }
