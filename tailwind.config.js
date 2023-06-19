@@ -6,7 +6,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontSize: {
+      'font-size': {
         clamp: "clamp(1rem, 5vw, 3rem)",
       },
     },
