@@ -60,9 +60,21 @@ const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=de
 
 const IndexPage = () => (
   <Layout>
-    <div>
+    {/* <div>
       <h1>
       We're a fully remote digital design and engineering collective. We believe in a partnership-first approach to design and work to bring your project from zero to one, and beyond.
+      </h1>
+    </div> */}
+
+    <div className="container mx-auto px-container">
+      <h1 className="mt-10 text-7xl font-bold md:mt-14 lg:mt-20">
+        <span style="opacity: 1; transform: translateY(0);" className="mr-1 inline-block transition-all duration-500 ease-motion">Think.</span> 
+        <span style="opacity: 1; transform: translateY(0);" className="mr-1 inline-block transition-all duration-500 ease-motion">Design.</span> 
+        <br />
+        <span style="opacity: 1; transform: translateY(0);" className="mr-1 inline-block transition-all duration-500 ease-motion">Develop.</span>
+        <span style="opacity: 1; transform: translateY(0);" className="mr-1 inline-block transition-all duration-500 ease-motion">Launch.</span> 
+        <br />
+        <span style="opacity: 1; transform: translateY(0);" class="mr-1 inline-block transition-all duration-500 ease-motion text-foreground-secondary">Repeat.</span> 
       </h1>
     </div>
 
