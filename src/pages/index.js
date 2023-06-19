@@ -67,7 +67,7 @@ const IndexPage = () => (
     </div> */}
 
     <div className="container mx-auto px-container">
-      <h1 className="mt-10 text-3xl text-slate-900 font-bold md:mt-14 lg:mt-20">
+      <h1 className="mt-10 text-4xl text-slate-900 font-bold md:mt-14 lg:mt-20">
         <span className="mr-1 inline-block transition-all duration-500 ease-motion">
           We're a fully remote digital design and engineering collective. 
           <br />
