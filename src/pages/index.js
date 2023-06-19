@@ -68,13 +68,13 @@ const IndexPage = () => (
 
     <div className="container mx-auto px-container">
       <h1 className="mt-10 text-7xl font-bold md:mt-14 lg:mt-20">
-        <span style="opacity: 1; transform: translateY(0);" className="mr-1 inline-block transition-all duration-500 ease-motion">Think.</span> 
-        <span style="opacity: 1; transform: translateY(0);" className="mr-1 inline-block transition-all duration-500 ease-motion">Design.</span> 
+        <span className="mr-1 inline-block transition-all duration-500 ease-motion">Think.</span> 
+        <span className="mr-1 inline-block transition-all duration-500 ease-motion">Design.</span> 
         <br />
-        <span style="opacity: 1; transform: translateY(0);" className="mr-1 inline-block transition-all duration-500 ease-motion">Develop.</span>
-        <span style="opacity: 1; transform: translateY(0);" className="mr-1 inline-block transition-all duration-500 ease-motion">Launch.</span> 
+        <span className="mr-1 inline-block transition-all duration-500 ease-motion">Develop.</span>
+        <span className="mr-1 inline-block transition-all duration-500 ease-motion">Launch.</span> 
         <br />
-        <span style="opacity: 1; transform: translateY(0);" class="mr-1 inline-block transition-all duration-500 ease-motion text-foreground-secondary">Repeat.</span> 
+        <span class="mr-1 inline-block transition-all duration-500 ease-motion text-foreground-secondary">Repeat.</span> 
       </h1>
     </div>
 
