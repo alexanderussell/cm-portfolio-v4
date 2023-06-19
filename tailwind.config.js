@@ -1,15 +1,18 @@
 /** @type {import('tailwindcss').Config} */
+
+// Settings
+const settingsScreens = require('./tailwind.settings.screens')
+const settingsFontSizes = require('./tailwind.settings.fontSizes')
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,jsx,ts,tsx}",
     "./src/components/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {
-      'font-size': {
-        clamp: "clamp(1rem, 5vw, 3rem)",
-      },
-    },
+    extend: {},
+    screens: settingsScreens,
+    fontSize: settingsFontSizes,
   },
   plugins: [],
 }
