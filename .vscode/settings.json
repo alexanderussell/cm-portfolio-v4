@@ -2,5 +2,8 @@
   "files.associations": {
     "*.css": "tailwindcss"
   },
-  "files.autoGuessEncoding": true
+  "files.autoGuessEncoding": true,
+  "editor.quickSuggestions": {
+    "strings": "inline"
+  }
 }
