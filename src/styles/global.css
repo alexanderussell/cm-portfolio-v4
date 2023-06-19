@@ -6,7 +6,7 @@
 
 
 @layer base {
-  html {
+  h1 {
     font-family: "Newsreader", "Inter", system-ui, sans-serif;
   }
 }
