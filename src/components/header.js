@@ -8,7 +8,7 @@ const navigation = [
 ]
 
 const Header = () => (
-    <header className="ease-[cubic-bezier(0.90, 0, 0.05, 1)] z-30 w-full border-b bg-background/95 duration-300 border-b-black-10">
+    <header className="z-30 w-full border-b bg-background/95 duration-300 border-b-black-10">
       <nav className="w-full border-b bg-background/95" aria-label="Global">
         <div className="flex items-center justify-between py-4 container mx-auto px-container">
           <div className="flex items-center gap-2">
