@@ -69,10 +69,7 @@ const IndexPage = () => (
     <div className="container mx-auto px-container">
       <h1 className="mt-10 text-6xl text-slate-900 font-bold md:mt-14 lg:mt-20">
         <span className="mr-1 inline-block transition-all duration-500 ease-motion">
-          We're a fully remote digital design and engineering collective. 
-          <br />
-          We believe in a partnership-first approach to design and work to bring your project from zero to one, and beyond.
-        </span> 
+          We're a fully remote digital design and engineering collective helping companies create great experiences with technology. </span> 
       </h1>
     </div>
 
