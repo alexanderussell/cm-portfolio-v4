@@ -4,6 +4,6 @@
   },
   "files.autoGuessEncoding": true,
   "editor.quickSuggestions": {
-    "strings": "inline"
+    "strings": "on"
   }
 }
