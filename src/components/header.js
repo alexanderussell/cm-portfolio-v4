@@ -8,8 +8,8 @@ const navigation = [
 ]
 
 const Header = () => (
-    <header className="z-30 w-full border-b bg-background/95 duration-300 border-b-black-10 dark:border-b-white-10">
-      <nav className="w-full border-b bg-background/95" aria-label="Global">
+    <header className="z-30 w-full bg-background/95 duration-300">
+      <nav className="w-full bg-background/95" aria-label="Global">
         <div className="flex items-center justify-between py-4 container mx-auto px-container">
           <div className="flex items-center gap-2">
             <a href="#">
