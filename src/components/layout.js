@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="dark:bg-green-950">
+    <div className="dark:bg-green-700">
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div>
         <main>{children}</main>
