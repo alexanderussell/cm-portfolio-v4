@@ -17,7 +17,7 @@ const Header = () => (
               <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
             </a>
           </div> 
-          <div className="items-center gap-6 text-base font-medium leading-relaxed md:flex">
+          <div className="items-center gap-6 text-base font-normal leading-relaxed md:flex">
             {navigation.map((item) => (
               <a key={item.name} href={item.href} className="text-xs leading-6 text-slate-600 dark:text-white">
                 {item.name}
